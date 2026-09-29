@@ -1,0 +1,159 @@
+<title>sns-ops-ai 利用規約</title>
+<style>
+  /*
+    layout: single-column legal document, generous line length cap, quiet sidebar-free reading
+  */
+  :root {
+    --bg: #faf9f7;
+    --surface: #ffffff;
+    --fg: #1c1a17;
+    --muted: #6b6459;
+    --border: #e6e2da;
+    --accent: #b5502f;
+    --font-display: "Source Serif 4", Georgia, "Hiragino Mincho ProN", serif;
+    --font-body: "Noto Sans JP", "Hiragino Sans", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #17140f;
+      --surface: #1f1b15;
+      --fg: #f1ede4;
+      --muted: #a99f8e;
+      --border: #332c22;
+      --accent: #e08a63;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #17140f;
+    --surface: #1f1b15;
+    --fg: #f1ede4;
+    --muted: #a99f8e;
+    --border: #332c22;
+    --accent: #e08a63;
+    color-scheme: dark;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-body);
+    padding-inline: 20px;
+    padding-block: 48px;
+    line-height: 1.8;
+  }
+
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: clamp(24px, 6vw, 56px);
+  }
+
+  .eyebrow {
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(28px, 4vw, 36px);
+    margin: 8px 0 4px;
+    text-wrap: balance;
+  }
+
+  .updated {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-family: var(--font-display);
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  p, li {
+    font-size: 16px;
+    color: var(--fg);
+  }
+
+  ul {
+    padding-left: 1.3em;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .contact {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .contact a { color: var(--accent); }
+</style>
+
+<main>
+  <div class="eyebrow">Terms of Service</div>
+  <h1>sns-ops-ai 利用規約</h1>
+  <div class="updated">最終更新日：2026年9月30日</div>
+
+  <h2>1. 本規約について</h2>
+  <p>
+    本規約は、SNS運用代行業務における内部業務ツール「sns-ops-ai」（以下「本ツール」）の利用条件を定めるものです。
+    本ツールは、運用代行契約を締結したクライアント企業に代わって、当該企業が管理するTikTokアカウントへの
+    投稿・投稿後のパフォーマンス取得を行うことを目的とした、限定された関係者のみが利用する社内向けツールです。
+  </p>
+
+  <h2>2. 利用者</h2>
+  <p>
+    本ツールを利用できるのは、運用代行業務の担当者として認められた者に限られます。
+    第三者への本ツールの提供・再配布・転用は行いません。
+  </p>
+
+  <h2>3. TikTokアカウントとの連携</h2>
+  <p>
+    本ツールは、クライアント企業の同意のもと、TikTok公式APIを通じて当該企業のTikTokアカウントと連携します。
+    連携によって取得したアクセス権限は、以下の目的にのみ使用します。
+  </p>
+  <ul>
+    <li>クライアント企業が確認・承認した動画コンテンツの投稿</li>
+    <li>投稿済みコンテンツの再生数・いいね数・コメント数・シェア数などの取得</li>
+  </ul>
+  <p>
+    上記以外の目的（第三者への転用、無断投稿、許諾を得ていないコンテンツの取得等）には使用しません。
+  </p>
+
+  <h2>4. 禁止事項</h2>
+  <ul>
+    <li>TikTokの利用規約に違反する形での本ツールの利用</li>
+    <li>クライアント企業の同意を得ていないアカウントへの接続</li>
+    <li>取得したデータの目的外利用・第三者への提供</li>
+  </ul>
+
+  <h2>5. 免責事項</h2>
+  <p>
+    本ツールの利用により生じた損害について、TikTok API側の仕様変更・障害に起因するものを含め、
+    運用主体は合理的な範囲でのみ責任を負うものとします。
+  </p>
+
+  <h2>6. 規約の変更</h2>
+  <p>
+    本規約は、本ツールの機能追加・変更に応じて随時更新されることがあります。
+  </p>
+
+  <div class="contact">
+    お問い合わせ：<a href="mailto:kyaori1102@gmail.com">kyaori1102@gmail.com</a>
+  </div>
+</main>
